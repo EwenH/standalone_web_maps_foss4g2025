@@ -28,6 +28,16 @@ standalone_web_maps_foss4g2025/
 │   ├── maplibre-gl.5.10.0.js    # MapLibre GL JS library
 │   ├── maplibre-gl.5.10.0.css   # MapLibre GL JS styles
 │   └── pmtiles.4.3.0.js         # PMTiles library for tile serving
+│   ├── fonts/                   # Noto Sans font files (for text rendering)
+│   │   ├── Noto Sans Regular/
+│   │   ├── Noto Sans Medium/
+│   │   ├── Noto Sans Italic/
+│   │   └── OFL.txt               # Open Font License
+│   └── sprites/                  # Sprite sheets for map icons
+│       ├── light.png
+│       ├── light.json
+|       ├── light@2x.png
+│       └── light@2x.json   
 └── sources/                     # Place to store source data files
 ```
 
@@ -45,17 +55,19 @@ standalone_web_maps_foss4g2025/
 │   ├── maplibre-gl.5.10.0.js    # MapLibre GL JS library
 │   ├── maplibre-gl.5.10.0.css   # MapLibre GL JS styles
 │   ├── pmtiles.4.3.0.js         # PMTiles library for tile serving
-│   ├── fonts/                    # Noto Sans font files (for text rendering) - added in later steps
+│   ├── fonts/                   # Noto Sans font files (for text rendering)
 │   │   ├── Noto Sans Regular/
 │   │   ├── Noto Sans Medium/
 │   │   ├── Noto Sans Italic/
-│   │   └── OFL.txt              # Open Font License
-│   └── sprites/                  # Sprite sheets for map icons - added in later steps
-│       ├── sprite.png
-│       └── sprite.json
+│   │   └── OFL.txt               # Open Font License
+│   └── sprites/                  # Sprite sheets for map icons
+│       ├── light.png
+│       ├── light.json
+|       ├── light@2x.png
+│       └── light@2x.json      
 └── sources/                     # Source data files
     ├── waiheke_island.pmtiles   # PMTiles archive for Waiheke Island basemap - added in later steps
-    └── te_ara_hura.geojson       # GeoJSON file for Te Ara Hura trail
+    └── te_ara_hura.geojson      # GeoJSON file for Te Ara Hura trail
 ```
 
 ## Technologies Used
